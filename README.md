@@ -22,11 +22,11 @@ Docker Composeでimageの作成、containerの起動まで行いますので
 
 `docker_db57_1`　 こちらがmysqlのサーバー側になります。
 
-`docker exec -it docker_app_1 /bin/bash`コマンドを実行してください。
+`docker exec -it docker_app57_1 /bin/bash`コマンドを実行してください。
 
-`docker_app_1`container内に侵入したら
+`docker_app57_1`container内に侵入したら
 
-`mysql -u [UserName] -h docker_db57_1 -p`とコマンドを実行してください。
+`mysql -h docker_db57_1 -p`とコマンドを実行してください。
 
 passwordを問われますので`[UserPassword]`を打てば通ります。
 
