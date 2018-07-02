@@ -17,3 +17,6 @@ services:
             TZ: "Asia/Tokyo"
         stdin_open: true
         tty: true
+networks:
+    common_link:
+        external: true
